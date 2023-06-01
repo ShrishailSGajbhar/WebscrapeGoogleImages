@@ -44,7 +44,7 @@ print(len(containers))
 
 len_containers = len(containers)
 
-for i in range(293, len_containers+1):
+for i in range(1, len_containers+1):
     if i % 25 == 0:
         continue
     xPath = f"""//*[@id="islrg"]/div[1]/div[{i}]"""
